@@ -1,7 +1,53 @@
+body {
+    margin: auto;
+    position: static;
+    width: 800px;
+    
+    
+
+}
+
 div.header {
     text-align: center;
     color: white;
     background-color: blue;
+    height: 85px;
+    margin: 0px;
+}
 
+div.links {
 
+    background-color:green;
+    height:40px;
+    color: white;
+
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+a {
+    color: white;
+}
+
+div.article {
+    margin-top:-16px;
+    width: 66%;
+    height: 28px;
+    color: white;
+    background-color: pink;
+    text-align: center;
 }
