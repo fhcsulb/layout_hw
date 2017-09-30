@@ -1,5 +1,5 @@
 body {
-    margin: auto;
+    
     position: static;
     width: 800px;
     
@@ -12,7 +12,6 @@ div.header {
     color: white;
     background-color: blue;
     height: 85px;
-    margin: 0px;
 }
 
 div.links {
@@ -20,34 +19,46 @@ div.links {
     background-color:green;
     height:40px;
     color: white;
-
     
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0px;
     padding: 0px;
+    border-spacing: 0;
     
     
 }
 
 li {
-    display: inline;
+    display: block;
     list-style-type: none;
-    padding-left: 10px;
-    padding-right: 15px;
+    float: left;
+    margin-block-end: 0px;
 }
 
 a {
     color: white;
+    padding-left: 12px;
+    padding-bottom: 0px;
 }
-
 div.article {
-    margin-top:-16px;
+    
     width: 66%;
-    height: 28px;
+    height: 40px;
     color: white;
     background-color: pink;
     text-align: center;
+    
 }
+p {
+    margin:0px;
+    padding:0px;
+}
+
+
+
+
+
+
