@@ -2,7 +2,6 @@ body {
     
     position: static;
     width: 800px;
-
 }
 
 p {
@@ -10,14 +9,14 @@ p {
     padding:0px;
 }
 
-div.header {
+header {
     text-align: center;
     color: white;
     background-color: blue;
     height: 85px;
 }
 
-div.links {
+nav {
 
     background-color:green;
     height:40px;
@@ -46,17 +45,18 @@ a {
     padding-left: 12px;
     padding-bottom: 0px;
 }
-div.article {
+
+
+article{
     
     width: 66%;
     height: 40px;
     color: white;
     background-color: pink;
     text-align: center;
-    
 }
 
-div.s1, div.s2 {
+section.s1 , section.s2 {
     width: 66%;
     height: 80px;
     color: white;
@@ -64,11 +64,31 @@ div.s1, div.s2 {
     text-align: center;
 }
 
-div.mid {
+article.mid {
+    width: 66%;
+    height: 15px;
+    background-color: pink;
+}
+
+article.btm {
     width: 66%;
     height: 20px;
     background-color: pink;
+}
 
+aside {
+    width: 33%;
+    height: 250px;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    color:white;
+    background-color: green;
+    height: 40px;
+    text-align: center;
 }
 
 
