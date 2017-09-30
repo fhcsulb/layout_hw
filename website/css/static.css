@@ -2,9 +2,12 @@ body {
     
     position: static;
     width: 800px;
-    
-    
 
+}
+
+p {
+    margin:0px;
+    padding:0px;
 }
 
 div.header {
@@ -52,10 +55,26 @@ div.article {
     text-align: center;
     
 }
-p {
-    margin:0px;
-    padding:0px;
+
+div.s1, div.s2 {
+    width: 66%;
+    height: 80px;
+    color: white;
+    background-color: brown;
+    text-align: center;
 }
+
+div.mid {
+    width: 66%;
+    height: 20px;
+    background-color: pink;
+
+}
+
+
+
+
+
 
 
 
