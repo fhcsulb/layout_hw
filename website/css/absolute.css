@@ -1,11 +1,12 @@
 body {
-    margin: auto;
+    
     width: 800px;
     
 }
 
 header {
-    width: inherit;
+    position: absolute;
+    width: 100%;
     text-align: center;
     color: white;
     background-color: blue;
@@ -14,7 +15,9 @@ header {
 }
 
 nav {
-        width: inherit;
+        position: absolute;
+        width: 100%;
+        top: 45px;
         background-color:green;
         height:40px;
         color: white;
@@ -35,6 +38,7 @@ li {
     list-style-type: none;
     float: left;
     margin-block-end: 0px;
+    margin-right: 60px;
 }
 
 a {
@@ -43,27 +47,22 @@ a {
     padding-bottom: 0px;
 }
 
-div.mid{
-    position: relative;
-    width: inherit;
-}
 
-div.left{
-    width: 66%;
-    left: 0;
-}
 
 article.title{
-    
-    width: 100%;
+    width: 66%;
+    position: absolute;
+    top: 85px;
     height: 40px;
     color: white;
     background-color: pink;
     text-align: center;
 }
 
-section.s1 , section.s2 {
-    width: 100%;
+section.s1 {
+    position: absolute;
+    top: 125px;
+    width: 66%;
     height: 80px;
     color: white;
     background-color: brown;
@@ -71,21 +70,35 @@ section.s1 , section.s2 {
 }
 
 article.mid {
-    width: 100%;
+    position: absolute;
+    top: 205px;
+    width: 66%;
     height: 15px;
     background-color: pink;
 }
 
+section.s2 {
+    position: absolute;
+    top: 220px;
+    width: 66%;
+    height: 80px;
+    color: white;
+    background-color: brown;
+    text-align: center;
+}
+
 article.btm {
-    width: 100%;
+    position: absolute;
+    top: 300px;
+    width: 66%;
     height: 20px;
     background-color: pink;
 }
 
 aside {
     position: absolute;
-    top: 0;
     right: 0;
+    top: 85px;
     width: 34%;
     height: 235px;
     background-color: cyan;
@@ -94,10 +107,13 @@ aside {
 }
 
 footer {
+    position: absolute;
+    top: 320px;
     color:white;
     background-color: green;
     height: 40px;
     text-align: center;
+    width: 100%;
 }
 
 
