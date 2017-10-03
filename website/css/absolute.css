@@ -43,3 +43,12 @@ a {
     padding-left: 12px;
     padding-bottom: 0px;
 }
+
+article{
+    
+    width: 66%;
+    height: 40px;
+    color: white;
+    background-color: pink;
+    text-align: center;
+}
