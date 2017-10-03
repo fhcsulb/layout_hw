@@ -4,28 +4,23 @@ body{
     padding: 0px;
 }
 
+
 header {
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
     color: white;
     background-color: blue;
     height: 45px;
-    margin: 0px;
-    padding: 0px;
     
 }
-
 nav {
-        position: absolute;
-        width: 100%;
-        top: 45px;
-        background-color:green;
-        height:40px;
-        color: white;
-        margin: 0px;
-        padding: 0px;
-        
+    position: relative;
+    width: 100%;
+    background-color:green;
+    height:40px;
+    color: white;
+    
 }
 
 ul {
@@ -51,87 +46,67 @@ a {
     padding-bottom: 0px;
 }
 
-
-
 article.title{
     width: 66%;
-    position: absolute;
-    top: 85px;
+    position: relative;
     height: 40px;
     color: white;
     background-color: pink;
     text-align: center;
-    margin: 0px;
-    padding: 0px;
 }
 
 section.s1 {
-    position: absolute;
-    top: 125px;
+    position: relative;
     width: 66%;
     height: 80px;
     color: white;
     background-color: brown;
     text-align: center;
-    margin: 0px;
-    padding: 0px;
 }
 
 article.mid {
-    position: absolute;
-    top: 205px;
+    position: relative;
     width: 66%;
     height: 15px;
     background-color: pink;
 }
 
 section.s2 {
-    position: absolute;
-    top: 220px;
+    position: relative;
     width: 66%;
     height: 80px;
     color: white;
     background-color: brown;
     text-align: center;
-    margin: 0px;
-    padding: 0px;
 }
 
 article.btm {
-    position: absolute;
-    top: 300px;
+    position: relative;
     width: 66%;
     height: 20px;
     background-color: pink;
-    margin: 0px;
-    padding: 0px;
 }
 
 aside {
-    position: absolute;
-    right: 0;
-    top: 85px;
+    position: relative;
+    bottom: 235px;
+    left: 845px;
     width: 34%;
     height: 235px;
     background-color: cyan;
     color: white;
     text-align: center;
-    margin: 0px;
-    padding: 0px;
 }
 
 footer {
-    position: absolute;
-    top: 320px;
+    position: relative;
     color:white;
     background-color: green;
     height: 40px;
     text-align: center;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    bottom: 235px;
 }
-
 
 
 
