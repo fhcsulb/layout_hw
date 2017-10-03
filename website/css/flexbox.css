@@ -49,7 +49,7 @@ ul {
 li {
     display: inline-block;
     list-style-type: none;
-    width: calc(90%/6);
+    width: calc(80%/6);
     text-align: center;
     
 }
@@ -57,4 +57,54 @@ li {
 a {
     color: white;
     padding-bottom: 0px;
+}
+
+#bodyleft{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+
+article.title{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: pink;
+    text-align: center;
+}
+
+section.s1 , section.s2{
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: brown;
+    text-align: center;
+}
+
+article.mid {
+    width: 100%;
+    height: 15px;
+    background-color: pink;
+}
+
+article.btm {
+    width: 100%;
+    height: 20px;
+    background-color: pink;
+}
+
+aside {
+    width: 34%;
+    height: 235px;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    color:white;
+    background-color: green;
+    height: 40px;
+    text-align: center;
+    width: 100%;
 }
