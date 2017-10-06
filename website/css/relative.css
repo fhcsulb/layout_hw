@@ -1,7 +1,9 @@
+
 body{
-    width: 100%;
+   width: 100%;
     margin: 0px;
     padding: 0px;
+    
 }
 
 
@@ -46,6 +48,7 @@ a {
     padding-bottom: 0px;
 }
 
+
 article.title{
     width: 66%;
     position: relative;
@@ -89,6 +92,7 @@ aside {
     color: white;
     text-align: center;
 }
+
 
 footer {
     position: relative;
